@@ -1,0 +1,115 @@
+Here’s the updated **GitHub README** section including commands for running and building your Next.js app:
+
+---
+
+````markdown
+## 🚀 Create Next.js App
+
+To create a new Next.js project, use one of the following commands:
+
+### Option 1: In the same folder
+```bash
+npx create-next-app@latest ./
+````
+
+### Option 2: In a new folder
+
+```bash
+npx create-next-app@latest
+```
+
+---
+
+### 🔧 Setup Options Explained
+
+During setup, you will be prompted with several questions:
+
+1. **What is your project named?**
+
+   * Name of your project folder. Example: `next-practise`.
+
+2. **Would you like to use TypeScript?** (No / Yes)
+
+   * **Yes** → Adds TypeScript support (recommended for type safety).
+   * **No** → Uses plain JavaScript.
+
+3. **Would you like to use ESLint?** (No / Yes)
+
+   * **Yes** → Adds ESLint for code linting and error detection.
+   * **No** → Skips linting setup.
+
+4. **Would you like to use Tailwind CSS?** (No / Yes)
+
+   * **Yes** → Adds Tailwind CSS for utility-first styling.
+   * **No** → Use plain CSS or add your own framework later.
+
+5. **Would you like your code inside a `src/` directory?** (No / Yes)
+
+   * **Yes** → Organizes project files inside `src/` for better structure.
+   * **No** → Keeps files at root level.
+
+6. **Would you like to use App Router? (recommended)** (No / Yes)
+
+   * **Yes** → Uses the new `app/` router (Next.js 13+).
+   * **No** → Uses the legacy `pages/` router.
+
+7. **Would you like to use Turbopack for `next dev`?** (No / Yes)
+
+   * **Yes** → Uses Turbopack (faster but experimental).
+   * **No** → Uses Webpack.
+
+8. **Would you like to customize the import alias (`@/*` by default)?** (No / Yes)
+
+   * **Yes** → Set a custom alias for imports (e.g., `@components`).
+   * **No** → Uses the default `@/*`.
+
+---
+
+## ▶️ Run & Build the Next.js App
+
+After setup, navigate into your project folder and run the following commands:
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+Runs the app in development mode.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+---
+
+### Create Production Build
+
+```bash
+npm run build
+```
+
+Builds the app for production. The output will be in the `.next/` folder.
+
+---
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+Starts the production build locally on **[http://localhost:3000](http://localhost:3000)**.
+
+---
+
+### Lint Your Code (if ESLint was enabled)
+
+```bash
+npm run lint
+```
+
+Runs ESLint to find and fix code issues.
+
+---
+
+✅ **You’re ready to start building with Next.js!**
+
+```
